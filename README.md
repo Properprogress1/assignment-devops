@@ -4,17 +4,17 @@ This assignment consists of three scenarios that test your DevOps skills in CI/C
 
 ### ⚠️ IMPORTANT
 
-- All scenarios must run fully locally.
+- All tasks must run fully locally.
 - Use Docker wherever possible.
 - Use LocalStack for AWS services (no real AWS usage).
 - Provide evidence (logs, screenshots, coverage reports, or terminal output).
 
-### 📌 Scenario 01: Spring Boot + CI/CD Pipeline + Test Coverage
+### 📌 Task 01: Spring Boot + CI/CD Pipeline + Test Coverage
 
 #### Goal
 
 - Use the Spring Boot project provided in this repository.
-- The project already has a sample /order endpoint that returns dummy order JSON (id, item, price).
+- The project already has a sample /order endpoint that returns dummy order JSON (OrderResponse list).
 - Your task is to:
   - Configure Jacoco to enforce a minimum test coverage of 80%.
   - Create a pipeline (Jenkins or GitHub Actions) that will:
@@ -37,12 +37,12 @@ This assignment consists of three scenarios that test your DevOps skills in CI/C
 - Screenshot/logs showing pipeline failure when coverage is below threshold.
 
 
-### 📌 Scenario 02: API Gateway with Terraform (LocalStack)
+### 📌 Task 02: API Gateway with Terraform (LocalStack)
 
 #### Goal
 
 - Create an API Gateway using Terraform.
-- Add endpoint /order that returns a dummy order object.
+- Add endpoint /order that returns a dummy order object (For example OrderResponse).
 - Must run locally on LocalStack.
 
 #### Requirements
@@ -56,7 +56,7 @@ This assignment consists of three scenarios that test your DevOps skills in CI/C
 - Screenshot of successful curl response returning dummy order JSON.
 
 
-### 📌 Scenario 03: JWT Authorizer Lambda with Terraform (LocalStack)
+### 📌 Task 03: JWT Authorizer Lambda with Terraform (LocalStack)
 
 #### Goal
 
