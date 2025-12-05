@@ -1,11 +1,19 @@
-# IntelliJ IDEA project files
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.zip
+
+# IDE
 .idea/
-*.iml
+.vscode/
+*.swp
+*.swo
 
-# Build output
-target/
-build/
-
-# OS files
+# OS
 .DS_Store
 Thumbs.db
+
+# Maven
+target/
+*.jar
